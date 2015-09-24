@@ -19,7 +19,8 @@ public class GitDemo extends Activity {
         pressMe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(GitDemo.this, "Yay!", Toast.LENGTH_LONG);
+                Toast.makeText(GitDemo.this, "Yay!", Toast.LENGTH_LONG).show();
+                
             }
         });
     }
